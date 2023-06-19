@@ -7,19 +7,15 @@ footer: MIT Licensed and CC BY 4.0 | Copyright © 2020-present Bervianto Leo Pra
 
 ## Create Resource Group
 
-<code-group>
-<code-block title="Azure CLI">
+::: code-group
 ```bash
 az group create --name <name> --location <location>
 ```
-</code-block>
 
-<code-block title="Powershell">
 ```powershell
 New-AzResourceGroup -Name vm-networks -Location "EastUS"
 ```
-</code-block>
-</code-group>
+:::
 
 ## Resource Group List
 
