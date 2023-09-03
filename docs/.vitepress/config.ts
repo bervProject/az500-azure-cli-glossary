@@ -1,7 +1,7 @@
-import { defineConfig } from 'vitepress'
+
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default {
   title: "AZ-500 Azure CLI Glossary",
   description: "AZ-500 Azure CLI Glossary",
   base: '/az500-azure-cli-glossary',
@@ -31,4 +31,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/bervProject/az500-azure-cli-glossary' }
     ]
   }
-})
+}
